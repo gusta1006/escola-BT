@@ -210,6 +210,61 @@ footer {
     margin-bottom: 20px;
     border-radius: 4px;
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 700px) {
+    header {
+        padding: 16px 0;
+    }
+
+    .logo-texto h1 {
+        font-size: 22px;
+    }
+
+    
+    nav ul li {
+        display: block;
+        margin: 0;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    nav ul li a.btn-contato {
+        margin: 6px 20px 0;
+    }
+
+    main {
+        padding: 22px 0;
+    }
+
+    .titulo-pagina h2 {
+        font-size: 24px;
+    }
+
+    .bloco-destaque,
+    .bloco-historia {
+        padding: 16px;
+    }
+
+    .email-escola {
+        font-size: 15px;
+        word-break: break-word;
+    }
+
+ 
+    .rede-link {
+        display: block;
+        margin: 6px 0;
+        padding: 10px;
+    }
+}
 
 
 .instagram { background-color: #19a204; }
