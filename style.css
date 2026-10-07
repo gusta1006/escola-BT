@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #333;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.conteudo-site {
+    width: 92%;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+header {
+    background-color: #fea409;
+    padding: 25px 0px;
+    text-align: center;
+}
+
+.logo-link {
+    color: #fff;
+}
+
+.logo-texto h1 {
+    font-size: 26px;
+}
+
+.logo-texto p {
+    font-size: 13px;
+    color: #704f02;
+}
+
+nav {
+    margin-top: 12px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block; 
+    margin: 0 8px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+nav ul li a:hover {
+    color: #ff9900;
+}
+
+nav ul li a.btn-contato {
+    background-color: #1b5e20;
+    padding: 6px 12px;
+    border: 1px solid #7a4104;
+    color: #ffffff;
+}
+
+main {
+    padding: 35px 0px;
+}
+
+.titulo-pagina {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.titulo-pagina h2 {
+    font-size: 30px;
+    color: #037008;
+}
+
+.bloco-destaque {
+    background-color: #ffffff;
+    padding: 22px;
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+.bloco-destaque h3 {
+    font-size: 21px;
+    color: #1b5e20;
+    margin-bottom: 12px;
+}
+
+.bloco-destaque p {
+    margin-bottom: 14px;
+}
+
+.cartao-materia {
+    background-color: #ffffff;
+    padding: 18px;
+    margin-bottom: 25px;
+    text-align: center;
+    border-top: 4px solid #f5a300;
+}
+
+.cartao-materia h3 {
+    font-size: 19px;
+    color: #165e02;
+    margin-bottom: 8px;
+}
+
+.btn-saiba-mais {
+    display: inline-block;
+    background-color: #1b5e20;
+    color: #ffffff;
+    padding: 9px 18px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.btn-saiba-mais:hover {
+    background-color: #ffb300;
+    color: #333;
+}
+
+.bloco-historia {
+    background-color: #ffffff;
+    padding: 25px;
+}
+
+.item-linha-tempo {
+    margin-bottom: 18px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.item-linha-tempo h3 {
+    color: #bdbd0a;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+
+.secao-contato {
+    background-color: #eaeff7;
+    padding: 28px 0;
+    text-align: center;
+}
+
+.secao-contato h3 {
+    color: #0d47a1;
+    margin-bottom: 8px;
+}
+
+.email-escola {
+    font-size: 17px;
+    color: #1b5e20;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.redes-sociais {
+    margin-top: 12px;
+}
+
+.rede-link {
+    display: inline-block;
+    margin: 0 4px;
+    padding: 6px 14px;
+    color: #fff;
+    font-weight: bold;
+}
+.imagem-materia {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+    object-fit: contain;
+}
+
+.logo-nav {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.logo-texto {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+
+
+.imagem-inicio {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+
+.instagram { background-color: #19a204; }
+.facebook { background-color: #fec300; }
+.youtube { background-color: #19a204; }
